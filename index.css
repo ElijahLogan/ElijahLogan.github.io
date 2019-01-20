@@ -65,7 +65,6 @@ html {
 .banner {
     display: flex;
     flex-direction: column;
-    height: 50rem background-color: cornsilk;
     justify-content: center;
     align-items: center;
     height: 50rem;
@@ -73,59 +72,34 @@ html {
 
 .banner h2 {
     padding: .55rem 0;
-    border-top: 10px solid #ffb78c;
-    border-bottom: 10px solid #ffb78c;
+    border-top: 4px solid #ffb78c;
+    border-bottom: 4px solid #ffb78c;
     font-size: 1.44rem;
     letter-spacing: 2px;
     font-weight: 500px;
 }
 
-@media only screen and (min-width: 700px) {
-    html {
-        font-size: 16px;
+.banner h1 {
+    padding-top: 1.11rem;
+    font-size: 8rem;
+    font-weight: 900px;
+    color: rgb(99, 28, 113);
+}
+
+@media only screen and (max-width: 750px) {
+    .banner {
+        height: 40rem;
     }
-    .navigation {
-        font-size: 1rem;
-    }
-    .navigation ul {
-        position: relative;
-        top: 2rem;
-    }
-    .navigation span {
-        position: relative;
-        top: 2rem;
+    .banner h1 {
+        font-size: 8rem;
     }
 }
 
-@media only screen and (min-width: 300px) and (max-width:600px) {
-    html {
-        font-size: 9px;
+@media only screen and (max-width: 530px) {
+    .banner {
+        height: 30rem;
     }
-    .navigation {
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (min-width: 400px) and (max-width:750px) {
-    html {
-        font-size: 9px;
-    }
-    .navigation {
-        height: 8.4rem;
+    .banner h1 {
+        font-size: 6rem;
     }
 }
-
-@media only screen and (min-width: 400px) and (max-width:600px) {
-    html {
-        font-size: 9px;
-    }
-    .navigation {
-        height: 8.4rem;
-        font-size: .79rem;
-        padding: 3%;
-    }
-}
-
-@media only screen and (min-width: 350px) and (max-width:550px) {}
-
-@media only screen and (min-width: 310px) and (max-width:550px) {}
