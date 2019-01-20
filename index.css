@@ -1,16 +1,27 @@
-* {
-    box-sizing: border-box
+html {
+    font-size: 18px;
 }
 
-html {
-    font-size: 16px;
+@media only screen and (max-width: 1000px) {
+    html {
+        font-size: 16px;
+    }
 }
+
+@media only screen and (max-width: 680px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+
+/* navigation */
 
 .navigation {
-    background-color: #3587A4;
-    width: 100%;
+    display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #3587A4;
     height: 4.44rem;
     padding: 0 12%;
     background-color: white;
@@ -20,22 +31,13 @@ html {
     font-weight: bold;
 }
 
-.navigation ul {
-    float: right;
-    margin: .5rem;
-    padding: 0;
-    width: 70%;
-    text-align: right;
+.navigation .logo {
+    flex-grow: 1;
 }
 
 .navigation li {
-    display: inline-flex;
-    align-items: center;
-    font-weight: 100;
-    justify-content: space-around;
-    font-size: 1.3rem;
-    letter-spacing: 0.25rem;
-    list-style-type: none;
+    display: inline;
+    padding-right: 2.2rem;
 }
 
 .navigation li a {
@@ -44,11 +46,20 @@ html {
 }
 
 .navigation span {
-    display: inline-flex;
-    text-align: center;
-    font-size: 1.3rem;
+    display: inline;
+    float: left;
+    font-size: 1rem;
     margin: .5rem;
     color: rgb(99, 28, 113);
+}
+
+@media only screen and (max-width: 550px) {
+    .navigation {
+        flex-direction: column;
+    }
+    .navigation .logo {
+        flex-grow: 0;
+    }
 }
 
 .banner {
@@ -91,7 +102,7 @@ html {
         font-size: 9px;
     }
     .navigation {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }
 
