@@ -58,12 +58,24 @@ img {
    
 }
 
-.responsive{
+.responsive-pic{
     margin-top:3rem;
     height: 60vh;
     width: 100vw;;
     display:flex;
     justify-content: center;
+    align-items: center;
     background-color:red;
+   
 }
 
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color:#1d7874;
+    font-weight: bold;
+}
