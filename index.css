@@ -48,26 +48,14 @@ html {
     color: rgb(99, 28, 113);
 }
 
-.banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50rem;
-    border: 2px red solid;
+.container{
+    max-width: 10%;
+    margin: 0 auto;
 }
 
-.banner h2 {
-    padding: .55rem 0;
-    border-top: 4px solid #ffb78c;
-    border-bottom: 4px solid #ffb78c;
-    font-size: 1.44rem;
-    letter-spacing: 2px;
-    font-weight: 500px;
-}
-
-.banner h1 {
-    font-size: 1rem;
-    font-weight: 900px;
-    color: rgb(99, 28, 113);
+.container img{
+    height: 10%;
+  width:10%;
+  margin:6%;
+  transform:rotate(-90deg);
 }
