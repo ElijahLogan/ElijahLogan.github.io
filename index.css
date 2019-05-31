@@ -38,6 +38,12 @@ html {
 .navigation li a {
     color:#f0c495;
 }
+.navigation li a:hover {
+    color:#679289;
+    text-decoration: none;
+}
+
+
 
 .navigation span {
     display: flex;
