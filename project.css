@@ -1,5 +1,7 @@
 /* changes made 1/21/19 */
 
+/* changes made 1/19/19 */
+
 html {
     font-size: 18px;
     display: flex;
@@ -14,7 +16,7 @@ html {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    background-color: rgb(195, 204, 208);
+    background-color:#1d7874;
     height: 4.44rem;
     padding: 0 12%;
     font-family: Verdana, sans-serif;
@@ -36,7 +38,11 @@ html {
 }
 
 .navigation li a {
-    color: rgb(99, 28, 113);
+    color:#f0c495;
+}
+.navigation li a:hover {
+    color:#679289;
+    text-decoration: none;
 }
 
 .navigation span {
@@ -45,5 +51,5 @@ html {
     justify-content: center;
     width: 100%;
     font-size: 1rem;
-    color: rgb(99, 28, 113);
+    color:#ee2e31;
 }
