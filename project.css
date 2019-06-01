@@ -54,6 +54,11 @@ html {
     color:#ee2e31;
 }
 
+.project-title{
+  display: flex;
+  justify-content: center;
+}
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
