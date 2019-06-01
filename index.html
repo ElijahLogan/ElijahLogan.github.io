@@ -13,8 +13,10 @@
 </head>
 
 <body>
-    <nav class="navigation">
-        <span class="logo"> Elijah Logan</span>
+        
+              
+    <nav  class="navigation" >
+        <span class="logo" onclick="openNav()"> Elijah Logan</span>
         <ul>
             <li><a href="index.html"> Home</a></li>
             <li><a href="project.html">Portfolio</a></li>
@@ -30,10 +32,18 @@
      
        <img src="images/coverphoto.JPG"/>
     </div>
-    <div>
-
-    </div>
-
+    <script>
+            function openNav() {
+              document.querySelector(".navigation").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+              console.log('worked')
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
+            </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
